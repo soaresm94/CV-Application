@@ -1,0 +1,67 @@
+.curriculumVitae{
+    display: flex;
+    flex-direction: column;
+}
+
+.one{
+    display: flex;
+    padding: 0rem 5rem;
+}
+
+.curriculumVitaeForm, .curriculumVitaePreview{
+    border: solid 1px black;
+}
+
+button{
+    margin: 1rem;
+    border: solid 1px black;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.eduInfo,
+.expInfo{
+    padding: 15px;
+}
+
+.curriculumVitaeForm{
+    background-color: lightgray;
+}
+
+input:hover,
+input:focus{
+    background-color: wheat;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+input,
+textarea{
+    width: 100%;
+    font-size: 20px;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+ul{
+    word-wrap: break-word;
+    text-decoration: none;
+    list-style-type: none;
+}
+
